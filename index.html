@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sketchbox</title>
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <content>
+        <h1>Sketchbox</h1>
+        <div class="range-wrap">
+            <input type="range" class="range" id="gridSize" min="3" 
+            max="100" value="16">
+            <output class="bubble"></output>
+        </div>
+        <div class="clearGrid">
+            <button type="button" class="btn btn-outline-dark" id="clearGrid" 
+            onclick="clearGrid()">Clear Grid</button>
+        </div>
+        <div id="sketchGrid"></div>
+    </content>
+    <script type="text/javascript" src="script.js"></script>        
+</body>
+</html>

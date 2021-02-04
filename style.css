@@ -1,0 +1,59 @@
+body, content {
+    display: grid;
+    font-family: sans-serif;
+}
+
+h1, .clearGrid {
+    margin: 25px auto;
+}
+
+.form-group {
+    width: 960px;
+    margin: auto;
+}
+
+#sketchGrid {
+    display: block;
+    height: 960px;
+    width: 960px;
+    margin: 25px auto;
+    line-height: 0px;
+}
+
+.cell {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Chris Coyier range with thumb code */
+
+.range-wrap {
+    position: relative;
+    margin: 0 auto 3rem;
+  }
+  .range {
+    width: 650px;
+  }
+  .bubble {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 4px 12px;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bubble::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    top: -5px;
+    left: 50%;
+  }
+  
+  body {
+    margin: 2rem;
+  }
